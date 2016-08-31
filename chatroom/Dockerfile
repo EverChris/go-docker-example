@@ -1,4 +1,4 @@
-FROM index.tenxcloud.com/tenxcloud/golang
+FROM index.tenxcloud.com/docker_library/golang
 
 ADD . /go/src/go-docker-example/chatroom
 RUN go install go-docker-example/chatroom

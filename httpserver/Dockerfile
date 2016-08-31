@@ -1,4 +1,4 @@
-FROM index.tenxcloud.com/docker_library/golang
+FROM index.tenxcloud.com/tenxcloud/golang
 
 ADD . /go/src/go-docker-example/httpserver
 RUN go install go-docker-example/httpserver
